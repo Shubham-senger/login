@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background: #ecf0f3;
+}
+.register-div {
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+  margin-top: 5%;
+}
+.logo {
+  background: url("https://source.unsplash.com/100x100/?nature,water");
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 
+    0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+.fields {
+  margin: 0;
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+.fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+.first-name,.last-name,.badge-id,.age,.gender,.address,.mobile-no,.aadhar-card,.password,.account-number,.ifsc-code {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+.fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
+}
+.register-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #EC1C24;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+  margin-bottom: 6px;
+  justify-content: space-between;
+}
+.register-button:hover {
+  background: #7f1734;
+}
+.register-button:active {
+  background: #92000A;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
+
+
+
+/* Existing styles... */
+
+.login-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-options button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-options button.active {
+  background-color: #444;
+  color: white;
+}
+
+/* Additional styles for forms */
+.fields .mobile, .fields .otp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fields .mobile svg, .fields .otp svg {
+  margin-right: 10px;
+}
+
+.fields .mobile input, .fields .otp input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

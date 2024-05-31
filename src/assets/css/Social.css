@@ -1,0 +1,24 @@
+.social {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .cube {
+    background: #EC1C24;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 6px #b1b1b1, -2px -2px 6px #ffffff;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cube img {
+    width: 30px;
+  }
+  .cube:hover {
+    transform: rotate(360deg);
+  }
+  
